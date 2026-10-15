@@ -6,11 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    ```
     <title>Account Deletion | HotSeat</title>
 
-    <meta name="description"
-        content="Instructions for requesting deletion of your HotSeat account and associated data.">
+    <meta name="description" content="Instructions for deleting your HotSeat account directly from the app.">
 
     <link rel="stylesheet" href="style.css">
 
@@ -18,96 +16,125 @@
 
 <body>
 
-    <header>
+    <header class="site-header">
         <div class="header-content">
             <p class="brand">HotSeat</p>
             <p class="subtitle">Account Management</p>
         </div>
 
-        ```
-        <nav aria-label="Main navigation">
+        <nav class="main-nav" aria-label="Main navigation">
             <a href="index.html">Home</a>
             <a href="privacy.html">Privacy Policy</a>
-            <a href="account-deletion.html">Account Deletion</a>
+            <a href="account-deletion.html" aria-current="page">Account Deletion</a>
         </nav>
-        ```
 
     </header>
 
-    <main>
-        <h1>Request Account Deletion</h1>
+    <main class="page-content">
+        <h1>Delete Your Account</h1>
 
-        ```
-        <p>
-            If you would like to delete your HotSeat account and associated
-            personal information, please follow the steps below.
+        <p class="last-updated">
+            Last updated: October 2026
         </p>
 
-        <h2>How to Request Account Deletion</h2>
+        <p>
+            HotSeat now supports deleting your account directly from the app. Follow the steps below to permanently
+            delete your account and associated personal data.
+        </p>
 
-        <ol>
+        <div class="warning-banner" role="alert">
+            <p><strong>Important:</strong> Account deletion is permanent and cannot be undone. Your account, profile,
+                and personal data will be deleted. Proceed only if you are certain you want to delete your HotSeat
+                account.</p>
+        </div>
+
+        <h2>How to Delete Your Account in the App</h2>
+
+        <ol class="steps">
             <li>
-                Send an email to
-                <a class="email" href="mailto:logschindler@gmail.com">
-                    logschindler@gmail.com
-                </a>.
+                <strong>Open HotSeat and sign in</strong> to the account you want to delete.
             </li>
-
             <li>
-                In the email, provide the email address associated with
-                the HotSeat account you want deleted.
+                <strong>Navigate to your Profile screen.</strong> Tap your profile avatar or the profile icon in the
+                app's bottom navigation bar.
+            </li>
+            <li>
+                <strong>Locate and tap <span class="ui-label">Delete Account</span>.</strong> This option appears in
+                your profile settings.
+            </li>
+            <li>
+                <strong>Read the confirmation dialog carefully.</strong> The dialog explains what will be deleted and
+                that the action cannot be reversed.
+            </li>
+            <li>
+                <strong>Confirm the deletion</strong> by tapping the confirmation button in the dialog if you want to
+                proceed.
+            </li>
+            <li>
+                <strong>Wait for the deletion process to complete.</strong> Once finished, you will be signed out and
+                returned to the login/signup screen.
             </li>
         </ol>
 
-        <div class="notice">
-            <p>
-                <strong>Important:</strong>
-                Please make sure you provide the email address associated
-                with the HotSeat account so that we can identify the correct
-                account.
-            </p>
-
-            <p>
-                Account deletion requests will be processed in accordance
-                with the HotSeat
-                <a href="privacy.html">Privacy Policy</a>.
-            </p>
-        </div>
-
-        <h2>What Happens After You Request Deletion?</h2>
+        <h2>What Gets Deleted</h2>
 
         <p>
-            We will review your request and take the necessary steps to
-            delete your HotSeat account and associated personal information.
-            Certain information may be retained when required for legal,
-            security, or other legitimate purposes as described in our
-            Privacy Policy.
+            When you confirm account deletion, the following data associated with your account is permanently removed:
         </p>
 
-        <h2>Future In-App Account Deletion</h2>
+        <ul>
+            <li>Your account credentials (email, hashed password)</li>
+            <li>Your profile information (username, display name, avatar)</li>
+        </ul>
+
+        <h2>What May Be Retained</h2>
 
         <p>
-            HotSeat is planned to support account deletion directly within
-            the mobile app. Once this functionality is available, these
-            instructions will be updated to explain how to initiate account
-            deletion from within the app.
+            Certain information may not be deleted immediately or at all:
         </p>
+
+        <ul>
+            <li><strong>Shared league data:</strong> Fantasy league information from Sleeper (rosters, standings,
+                matchups, transactions) is sourced from Sleeper's public API and is not your personal data. This data
+                remains available to other league members and in Sleeper's systems.</li>
+            <li><strong>Published league writeups:</strong> If you published AI-generated league recaps or writeups that
+                are visible to other league members, those publications may remain accessible to the league.</li>
+            <li><strong>Cached league data:</strong> Temporary league data cached for performance is cleared on a short
+                cycle (a few days) independent of account deletion.</li>
+            <li><strong>Backups:</strong> Database backups are typically retained for 30–90 days before being
+                overwritten, as described in the <a href="privacy.html">Privacy Policy</a>.</li>
+            <li><strong>Legal obligations:</strong> We may retain limited records when required for legal, security, or
+                fraud-prevention purposes.</li>
+        </ul>
+
+        <h2>If Deletion Fails</h2>
+
+        <p>
+            If the <span class="ui-label">Delete Account</span> action does not complete (for example, due to a network
+            error or server issue):
+        </p>
+
+        <ol class="steps">
+            <li>Check your internet connection and try again.</li>
+            <li>Force-close and reopen the app, then repeat the steps above.</li>
+            <li>If the problem persists, contact us at <a
+                    href="mailto:logschindler@gmail.com">logschindler@gmail.com</a> with the email address associated
+                with your HotSeat account. We will assist you with the deletion request.</li>
+        </ol>
 
         <h2>Questions</h2>
 
         <p>
-            If you have questions about account deletion or your personal
-            information, contact us at
+            If you have questions about account deletion or your personal information, contact us at
             <a href="mailto:logschindler@gmail.com">
                 logschindler@gmail.com
             </a>.
         </p>
-        ```
 
     </main>
 
-    <footer>
-        &copy; 2026 HotSeat. All rights reserved.
+    <footer class="site-footer">
+        <p>&copy; 2026 HotSeat. All rights reserved.</p>
     </footer>
 
 </body>
